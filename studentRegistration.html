@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: HoneyDew;
+        }
+
+        h1{
+            text-align: center;
+        }
+
+        .studentform{
+            background-color:LightPink  ;
+            width: 50%;
+            margin:auto auto;
+            padding: 100px 100px;
+        }
+        .first{
+            width: 200px;
+        }
+        .second{
+            width: 500px;
+        }
+        .second input{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="studentform">
+        <h1><u> STUDENT REGISTRATION FORM </u></h1>
+        <table>
+            <tr>
+                <td  class="first"><label for="name">NAME </label></td>
+                <td class="second"> <input type="text" id="name"></td>
+            </tr>
+            <tr>
+                <td class="first"><label for="fname">FATHER'S NAME </label></td>
+                <td class="second"><input type="text" id="fname"></td>
+            </tr>
+            <tr>
+                <td class="first"><label for="add">POSTAL ADDRESS </label></td>
+                <td class="second"><input type="text" id="add"></td>
+            </tr>
+            <tr>
+                <td class="first"><label for="padd">PERONAL ADDRESS </label></td>
+                <td class="second"><input type="text" id="padd"></td>
+            </tr>
+            <tr>
+               <td class="first">SEX</td>
+               <td>
+                    <input type="radio" id="sexm" name="gen"><label for= "sexm">Male</label>
+                    <input type="radio" id="sexf" name="gen"><label for= "sexf">Female</label>
+                    <input type="radio" id="sexn" name="gen"><label for= "sexn">Prefer not to mention</label>
+                </td>
+            </tr>
+            <tr>
+                <td class="first">City</td>
+                <td class="second" >
+                    <select>
+                        <option>select..</option>
+                        <option>Delhi</option>
+                        <option>Pune</option>
+                        <option>Mumbai</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="first">District</td>
+                <td class="second" >
+                    <select>
+                        <option>select..</option>
+                        <option>Delhi</option>
+                        <option>Pune</option>
+                        <option>Mumbai</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="first"> <label for = "pin">PinCode</label></td>
+                <td class="second"> <input type="number" id="pin"></td>
+            </tr>
+            <tr>
+                <td class="first">Course</td>
+               <td class="second">
+                    <select>
+                        <option>BTech</option>
+                        <option>BPharma</option>
+                        <option>MBBS</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="first"><label for="mail">Email ID </label></td>
+                <td class="second"><input type="email" id="mail"></td>
+            </tr>
+            <tr>
+                <td class="first"><label for="dob">DOB</label></td>
+                <td class="second"><input type="date" id="dob"></td>
+            </tr>
+            <tr>
+                <td class="first"><label for="num">Mobile No.</label></td>
+                <td class="second"><input type="tel" id="num"></td>
+            </tr>
+            <tr>
+                <td class="first"> <button type="reset">RESET</button></td>
+                <td class="second"> <button type="submit">SUBMIT FORM</button></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
